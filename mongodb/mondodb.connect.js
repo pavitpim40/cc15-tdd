@@ -4,7 +4,7 @@ async function connect() {
   try {
     mongoose.set("strictQuery", false);
     await mongoose.connect(
-      "mongodb+srv://ppimchan40:JWvQpUM9EdYe6H3@node-express.knhfg1c.mongodb.net/todo-tdd",
+      "mongodb+srv://ppimchan40:kUBD82DBqSAd8pkB@node-express.knhfg1c.mongodb.net/todo-tdd",
       { useNewUrlParser: true }
     );
     console.log("DB connect");
